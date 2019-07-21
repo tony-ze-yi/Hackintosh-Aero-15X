@@ -88,6 +88,7 @@ Then, inside each folder:
 - After install, run clover install onto your laptop drive, ensuring you check "Install rc scripts on target volume" (the rest doesn't matter since we're going to replace the clover folder anyways, but install prefpane if you want).
 - Mount EFI using clover configurator, delete the clover folder and replace it with the one in this repo.
 - If all works well you should have a fully functioning mojave setup (no nvidia graphics sadly)
+
 **Notes**
 - If you happen to have a PM981 SSD (Samsung) due to an RMA, the Mojave install *will not work*! It will reboot randomly during install. Buy another SSD and put it into the second M.2 slot, then install Mojave onto there.
 - Sometimes when you update Mojave to 10.14.5 from a lower build it may cause problems with sound. That happened to me. Make a backup and install fresh with the Mojave 10.14.5 installer.
