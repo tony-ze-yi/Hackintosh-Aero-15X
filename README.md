@@ -79,3 +79,4 @@ Then, inside each folder:
 - Tested this on Mojave through App Store update and it works right oob after the setup
 - However, please note that I'll not update and test this often for Mojave compared to High Sierra since I'm waiting for Nvidia Graphics support on Mojave as well as APFS support on Clonezilla/partclone
    - https://github.com/zacmks/Hackintosh-Aero-15X/issues/4
+- Moved Mojave support to 10.14.5 folder
