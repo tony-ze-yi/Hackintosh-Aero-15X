@@ -227,10 +227,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT-Disable-DGPU.aml</string>
-		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -250,6 +246,11 @@
 		<dict>
 			<key>DropOem</key>
 			<false/>
+			<key>Generate</key>
+			<dict>
+				<key>PluginType</key>
+				<true/>
+			</dict>
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
@@ -257,7 +258,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-cflbkltfix igfxcflbklt=1 applbkl=0</string>
+		<string>-cflbkltfix igfxcflbklt=1 applbkl=0 -v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -563,7 +564,7 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>ProductName</key>
-		<string>MacBookPro15,1</string>
+		<string>MacBookPro15,2</string>
 		<key>Trust</key>
 		<true/>
 	</dict>
@@ -572,8 +573,6 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>

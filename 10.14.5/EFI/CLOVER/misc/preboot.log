@@ -1,0 +1,604 @@
+0:100  0:100  MemLog inited, TSC freq: 2208342060
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 3.8.2019,  17:18:46 (GMT)
+0:100  0:000  Starting Clover revision: 5033 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -D HAVE_LEGACY_EMURUNTIMEDXE -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,B2551E92-AC33-4F09-82C5-89FE51281AF2,0x22,0x64000) @364F0818
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  === [ Get Smbios ] ========================================
+0:109  0:008  Type 16 Index = 0
+0:109  0:000  Total Memory Slots Count = 4
+0:109  0:000  Type 17 Index = 0
+0:109  0:000  SmbiosTable.Type17->Speed = 2667MHz
+0:109  0:000  SmbiosTable.Type17->Size = 16384MB
+0:109  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:109  0:000  SmbiosTable.Type17->Vendor = Micron
+0:109  0:000  SmbiosTable.Type17->SerialNumber = 202B0C2B
+0:109  0:000  SmbiosTable.Type17->PartNumber = 16ATF2G64HZ-2G6H1   
+0:109  0:000  Type 17 Index = 1
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:109  0:000  SmbiosTable.Type17->Size = 0MB
+0:109  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:109  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:109  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:109  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:109  0:000  Type 17 Index = 2
+0:109  0:000  SmbiosTable.Type17->Speed = 2667MHz
+0:109  0:000  SmbiosTable.Type17->Size = 16384MB
+0:109  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:109  0:000  SmbiosTable.Type17->Vendor = 066D
+0:109  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:109  0:000  SmbiosTable.Type17->PartNumber = TN416G26D819-SB     
+0:109  0:000  Type 17 Index = 3
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:109  0:000  SmbiosTable.Type17->Size = 0MB
+0:109  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:109  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:109  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:109  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:109  0:000  Boot status=0
+0:109  0:000  Running on: 'AERO 15XV8' with board 'AERO 15XV8'
+0:109  0:000  === [ GetCPUProperties ] ==================================
+0:109  0:000  CPU Vendor = 756E6547 Model=906EA
+0:109  0:000   The CPU supported SSE4.1
+0:109  0:000  BrandString = Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+0:109  0:000   The CPU supported turbo
+0:109  0:000  MSR 0x35               6000C
+0:109  0:000   TSC/CCC Information Leaf:
+0:109  0:000    numerator     : 184
+0:109  0:000    denominator   : 2
+0:109  0:000   Calibrated ARTFrequency: 24003718
+0:109  0:000  MSR 0xE2 before patch 1E008004
+0:109  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:109  0:000  MSR 0xCE              0008083B_F1011600
+0:109  0:000  corrected FLEX_RATIO = 0
+0:109  0:000  MSR 0x1B0             00000000
+0:109  0:000  FSBFrequency = 96 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:109  0:000  MaxDiv/MinDiv: 22.0/8
+0:109  0:000  Turbo: 40/40/41/41
+0:109  0:000  Features: 0xBFEBFBFF
+0:109  0:000  Threads: 12
+0:109  0:000  Cores: 6
+0:109  0:000  FSB: 100 MHz
+0:109  0:000  CPU: 2100 MHz
+0:109  0:000  TSC: 2100 MHz
+0:109  0:000  PIS: 100 MHz
+0:109  0:000  ExternalClock: 25 MHz
+0:109  0:000  === [ GetDevices ] ========================================
+0:109  0:000  PCI (00|00:00.00) : 8086 3EC4 class=060000
+0:109  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:109  0:000  PCI (00|01:00.00) : 10DE 1BA1 class=030000
+0:109  0:000   - GFX: Model=Gigabyte GeForce GTX 1070 family 134 (Pascal)
+0:109  0:000  PCI (00|01:00.01) : FFFF FFFF class=FFFFFF
+0:109  0:000  PCI (00|00:02.00) : 8086 3E9B class=030000
+0:109  0:000   - GFX: Model=Intel UHD Graphics 630 (Intel)
+0:109  0:000  PCI (00|00:08.00) : 8086 1911 class=088000
+0:109  0:000  PCI (00|00:12.00) : 8086 A379 class=118000
+0:109  0:000  PCI (00|00:14.00) : 8086 A36D class=0C0330
+0:109  0:000  PCI (00|00:14.02) : 8086 A36F class=050000
+0:109  0:000  PCI (00|00:16.00) : 8086 A360 class=078000
+0:109  0:000  PCI (00|00:1B.00) : 8086 A342 class=060400
+0:109  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:109  0:000   - LAN: 0 Vendor=Realtek
+0:109  0:000  PCI (00|00:1B.03) : 8086 A343 class=060400
+0:109  0:000  PCI (00|03:00.00) : 14E4 43B1 class=028000
+0:109  0:000   - WIFI: Vendor=Broadcom
+0:109  0:000  PCI (00|00:1B.04) : 8086 A32C class=060400
+0:109  0:000  PCI (00|04:00.00) : 126F 2262 class=010802
+0:109  0:000  PCI (00|00:1D.00) : 8086 A330 class=060400
+0:109  0:000  PCI (00|05:00.00) : 144D A808 class=010802
+0:109  0:000  PCI (00|00:1D.04) : 8086 A334 class=060400
+0:109  0:000  PCI (00|00:1F.00) : 8086 A30D class=060100
+0:110  0:000  PCI (00|00:1F.03) : 8086 A348 class=040300
+0:110  0:000  PCI (00|00:1F.04) : 8086 A323 class=0C0500
+0:110  0:000  PCI (00|00:1F.05) : 8086 A324 class=0C8000
+0:110  0:000  === [ GetDefaultSettings ] ================================
+0:110  0:000  Clover load options size = 0 bytes
+0:111  0:001  EFI\CLOVER\config.plist loaded: Success
+0:121  0:009  === [ GetListOfThemes ] ===================================
+0:121  0:000  - [00]: random
+0:121  0:000  - [00]: embedded
+0:122  0:000  - [00]: minimal
+0:122  0:000  === [ Found config plists ] ===============================
+0:122  0:000  - config-intel.plist
+0:122  0:000  - config.plist
+0:122  0:000  - config-nvidia.plist
+0:122  0:000  === [ GetEarlyUserSettings ] ==============================
+0:122  0:000  timeout set to 3
+0:122  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:122  0:000  KextsToPatch: 6 requested
+0:122  0:000   - [00]: IOBufferCopyController (disable IOBufferCopyController (Credit by DalianSky)) :: PlistPatch :: data len: 5
+0:122  0:000   - [01]: AppleIntelLpssI2C (Disable AppleIntelLpssI2C (credit by Coolstar)) :: PlistPatch :: data len: 5
+0:122  0:000   - [02]: AppleIntelLpssI2CController (Disable AppleIntelLpssI2CCOntroller (credit by Coolstar)) :: PlistPatch :: data len: 5
+0:122  0:000   - [03]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:122  0:000   - [04]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+0:123  0:000   - [05]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit RehabMan, based prior PMHeart patch)) :: MatchOS: 10.13.6 :: BinPatch :: data len: 10
+0:123  0:000  KernelToPatch: 1 requested
+0:123  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:123  0:000  Default theme: minimal
+0:123  0:000  Hiding entries with string Windows
+0:123  0:000  Hiding entries with string \EFI\BOOT\BOOTX64.EFI
+0:123  0:000  Hiding entries with string Preboot
+0:123  0:000  Hiding entries with string Recovery
+0:123  0:000  === [ LoadDrivers ] =======================================
+0:123  0:000  Loading FSInject.efi  status=Success
+0:124  0:001  Loading UsbKbDxe.efi  status=Success
+0:125  0:000   - driver needs connecting
+0:125  0:000  Loading NvmExpressDxe.efi  status=Success
+0:126  0:000   - driver needs connecting
+0:126  0:000  Loading OsxAptioFixDrv.efi  status=Success
+0:126  0:000  Loading SMCHelper.efi  status=Success
+0:127  0:000  Loading OsxFatBinaryDrv.efi  status=Success
+0:128  0:000  Loading EmuVariableUefi.efi  status=Success
+0:129  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:129  0:000  Loading DataHubDxe.efi  status=Success
+0:132  0:002  Loading ApfsDriverLoader.efi  status=Success
+0:132  0:000   - driver needs connecting
+0:132  0:000  Loading AudioDxe.efi  status=Success
+0:134  0:001   - driver needs connecting
+0:134  0:000  4 drivers needs connecting ...
+0:134  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:134  0:000  APFS driver loaded
+0:134  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:007  3:873  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:034  0:027  === [ InitScreen ] ========================================
+4:034  0:000  Console modes reported: 4, available modes:
+4:034  0:000   - [01]: 80x25 (current mode)
+4:034  0:000   - [02]: 80x50
+4:034  0:000   - [03]: 100x31
+4:034  0:000   - [04]: 240x56
+4:034  0:000  SetScreenResolution: 1920x1080 - already set
+4:034  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,B2551E92-AC33-4F09-82C5-89FE51281AF2,0x22,0x64000)
+4:035  0:000  Using embedded font: Success
+4:036  0:000  === [ GetMacAddress ] =====================================
+4:036  0:000  === [ ScanSPD ] ===========================================
+4:037  0:000  Scanning SMBus [8086:A323], mmio: 0xAD816004, ioport: 0xEFA0, hostc: 0x11
+4:058  0:021  Slot: 0 Type 26 16384MB 2666MHz Vendor=Micron Technology PartNo=16ATF2G64HZ-2G6H1 SerialNo=0200020B000C020B
+4:078  0:019  Slot: 2 Type 26 16384MB 2666MHz Vendor=V-Color Technology PartNo=TN416G26D819-SB SerialNo=0000000000000000
+4:079  0:001  === [ GetAcpiTablesList ] =================================
+4:095  0:015  Get Acpi Tables List from RSDT:
+4:095  0:000   - [00]: FACP  GBTUACPI len=132
+4:095  0:000   - [01]: APIC  GBTUACPI len=244
+4:095  0:000   - [02]: FPDT  GBTUACPI len=68
+4:095  0:000   - [03]: FIDT  GBTUACPI len=156
+4:095  0:000   - [04]: MCFG  GBTUACPI len=60
+4:095  0:000   - [05]: SSDT  SataTabl len=820
+4:095  0:000   - [06]: SSDT  CpuSsdt len=6101
+4:095  0:000   - [07]: MSDM  GBTUACPI len=85
+4:095  0:000   - [08]: SLIC  GBTUACPI len=374
+4:095  0:000   - [09]: SSDT  SaSsdt  len=12743
+4:095  0:000   - [10]: SSDT  PegSsdt len=8135
+4:095  0:000   - [11]: HPET  GBTUACPI len=56
+4:095  0:000   - [12]: SSDT  Ther_Rvp len=3998
+4:095  0:000   - [13]: SSDT  xh_cfhd4 len=10572
+4:095  0:000   - [14]: UEFI  GBTUACPI len=72
+4:095  0:000   - [15]: LPIT  GBTUACPI len=92
+4:095  0:000   - [16]: SSDT  PtidDevc len=10206
+4:095  0:000   - [17]: SSDT  TbtTypeC len=4226
+4:095  0:000   - [18]: DBGP  GBTUACPI len=52
+4:095  0:000   - [19]: DBG2  GBTUACPI len=84
+4:095  0:000   - [20]: SSDT  SgPeg len=174
+4:095  0:000   - [21]: DMAR  EDK2     len=168
+4:095  0:000   - [22]: BGRT  GBTUACPI len=56
+4:095  0:000   - [23]: SSDT  OptTabl len=7801
+4:095  0:000   - [24]: WSMT  GBTUACPI len=40
+4:095  0:000  Calibrated TSC Frequency = 2208342060 = 2208MHz
+4:095  0:000  === [ GetUserSettings ] ===================================
+4:095  0:000  Add 2 devices:
+4:095  0:000  USB FixOwnership: yes
+4:095  0:000  Dropping 2 tables:
+4:095  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+4:095  0:000           - set table: 52414D44,                0 to drop: yes
+4:095  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="xh_rvp10" (30317076725F6878)
+4:095  0:000           - set table: 54445353, 30317076725F6878 to drop: no
+4:095  0:000   - final DSDT Fix mask=01004000
+4:095  0:000  PatchesDSDT: 14 requested
+4:095  0:000   - [00]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [01]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [02]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [03]: (change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [04]: (change HDAS to HDEF, optionally pair with SSDT-HDEF.aml) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [05]: (change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:095  0:000   - [06]: (change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:095  0:000   - [07]: (change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:095  0:000   - [08]: (change _OSI to XOSI, pair with SSDT-XOSI.aml) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [09]: (Batt, change WMBD to XMBD) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [10]: (Batt, change WMBC to XMBC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [11]: (Batt, change _BIF to XBIF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [12]: (Batt, change _BST to XBST) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000   - [13]: (Batt, change BATS to BATX) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:095  0:000  Using ProductName from config: MacBookPro15,2
+4:095  0:000  BiosVersion: not set, Using BiosVersion from clover
+4:095  0:000  BiosVersion: MBP152.88Z.F000.B00.1904222000
+4:095  0:000  BiosReleaseDate: 04/22/2019
+4:095  0:000  Using EfiVersion from clover: 220.270.99.0.0
+4:095  0:000  Using FirmwareFeatures from clover: 0xFC0FE137
+4:095  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+4:095  0:000  Using PlatformFeature from clover: 0x1A
+4:096  0:000  === [ Found DSDT tables ] =================================
+4:224  0:128  === [ ScanVolumes ] =======================================
+4:224  0:000  Found 11 volumes with blockIO
+4:224  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+4:224  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:224  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,B2551E92-AC33-4F09-82C5-89FE51281AF2,0x22,0x64000)
+4:225  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:225  0:000          This is SelfVolume !!
+4:225  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)
+4:225  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:225  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,924B0986-8046-6A00-1D25-D4DD36C579A8,0xDFE8800,0x61C99000)
+4:225  0:000          Result of bootcode detection: bootable Windows (win)
+4:225  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,98-D1-02-81-8A-38-25-00)
+4:226  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,98-D1-02-81-8A-38-25-00)\HD(1,GPT,B80268D6-2FBB-D089-AAFB-9B6F8C5F964C,0x800,0x32000)
+4:226  0:000          Result of bootcode detection: bootable Windows (win)
+4:226  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,98-D1-02-81-8A-38-25-00)\HD(2,GPT,0692A4D3-15FB-46B3-832B-D07DCBD1C528,0x32EB8,0x3B9AE000)
+4:226  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:226  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A002FE013C31EF488305BEE584FDE1F7)
+4:226  0:000          hiding this volume
+4:226  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,2B811A3747EC0A46AFBB3A5896171DD3)
+4:226  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,14C27B4A097E8F4784BCFCEC7CF774DD)
+4:226  0:000          hiding this volume
+4:226  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5E890CE0BDB0AC43A516FA17A881549D)
+4:226  0:000  Loading nvram.plist from Vol 'EFI' - loaded, size=2622
+4:229  0:002  === [ PutNvramPlistToRtVars ] =============================
+4:229  0:000   Adding Key: EFILoginHiDPI: Size = 4, Data: 00 00 00 00 
+4:229  0:000   Skipping EmuVariableUefiPresent
+4:229  0:000   Adding Key: LocationServicesEnabled: Size = 1, Data: 01 
+4:229  0:000   Skipping OsxAptioFixDrv-RelocBase
+4:229  0:000   Adding Key: SystemAudioVolume: Size = 1, Data: 41 
+4:229  0:000   Adding Key: SystemAudioVolumeDB: Size = 1, Data: F0 
+4:229  0:000   Adding Key: backlight-level: Size = 2, Data: 11 83 
+4:229  0:000   Adding Key: bluetoothActiveControllerInfo: Size = 16, Data: 7A E0 89 04 00 00 00 00 A0 14 48 E2 44 E1 E6 7C 
+4:229  0:000   Adding Key: csr-active-config: Size = 4, Data: 67 00 00 00 
+4:229  0:000   Adding Key: efi-boot-device: Size = 216, Data: 3C 61 72 72 61 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 49 4F 4D 61 74 63 68 3C 2F 6B 65 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 49 4F 50 72 6F 76 69 64 65 72 43 6C 61 73 73 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 49 4F 4D 65 64 69 61 3C 2F 73 74 72 69 6E 67 3E 3C 6B 65 79 3E 49 4F 50 72 6F 70 65 72 74 79 4D 61 74 63 68 3C 2F 6B 65 79 3E 3C 64 69 63 74 3E 3C 6B 65 79 3E 55 55 49 44 3C 2F 6B 65 79 3E 3C 73 74 72 69 6E 67 3E 39 31 32 41 43 35 37 41 2D 43 36 30 39 2D 34 35 45 46 2D 39 43 31 42 2D 36 42 30 43 44 39 35 46 35 33 45 43 3C 2F 73 74 72 69 6E 67 3E 3C 2F 64 69 63 74 3E 3C 2F 64 69 63 74 3E 3C 2F 64 69 63 74 3E 3C 2F 61 72 72 61 79 3E 
+4:229  0:000   Adding Key: efi-boot-device-data: Size = 122, Data: 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 04 1B 01 01 06 00 00 00 03 17 10 00 01 00 00 00 00 00 00 00 00 00 00 00 04 01 2A 00 02 00 00 00 28 40 06 00 00 00 00 00 D8 47 F8 0D 00 00 00 00 7A C5 2A 91 09 C6 EF 45 9C 1B 6B 0C D9 5F 53 EC 02 02 04 03 24 00 F7 FC 74 BE 7C 0B F3 49 91 47 01 F4 04 2E 68 42 2B 81 1A 37 47 EC 0A 46 AF BB 3A 58 96 17 1D D3 7F FF 04 00 
+4:229  0:000   Adding Key: fakesmc-key-#KEY-ui32: Size = 4, Data: 00 00 00 0E 
+4:229  0:000   Adding Key: fakesmc-key-$Adr-ui32: Size = 4, Data: 00 00 03 00 
+4:229  0:000   Adding Key: fakesmc-key-$Num-ui8: Size = 1, Data: 01 
+4:229  0:000   Adding Key: fakesmc-key-BATP-flag: Size = 1, Data: 00 
+4:229  0:000   Adding Key: fakesmc-key-BBIN-ui8: Size = 1, Data: 01 
+4:229  0:000   Adding Key: fakesmc-key-BEMB-flag: Size = 1, Data: 01 
+4:229  0:000   Adding Key: fakesmc-key-BNum-ui8: Size = 1, Data: 01 
+4:229  0:000   Adding Key: fakesmc-key-MSAc-ui16: Size = 2, Data: 00 00 
+4:229  0:000   Adding Key: fakesmc-key-MSFW-ui8: Size = 2, Data: 01 00 
+4:229  0:000   Adding Key: fakesmc-key-MSPS-ui16: Size = 2, Data: 00 03 
+4:229  0:000   Adding Key: fakesmc-key-MSTc-ui8: Size = 1, Data: 00 
+4:229  0:000   Adding Key: fakesmc-key-MSWr-ui8: Size = 1, Data: 00 
+4:229  0:000   Adding Key: fakesmc-key-RMde-char: Size = 1, Data: 41 
+4:229  0:000   Adding Key: fakesmc-key-RPlt-ch8*: Size = 8, Data: 6A 36 38 30 00 00 00 00 
+4:229  0:000   Adding Key: flagstate: Size = 32, Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+4:229  0:000   Adding Key: fmm-computer-name: Size = 20, Data: 54 6F 6E 79 E2 80 99 73 20 4D 61 63 42 6F 6F 6B 20 50 72 6F 
+4:229  0:000   Adding Key: nvda_drv: Size = 2, Data: 31 00 
+4:229  0:000   Adding Key: prev-lang:kbd: Size = 4, Data: 65 6E 3A 30 
+4:229  0:000   Adding Key: security-mode: String: Size = 4, Val = 'none'
+4:229  0:000   Adding Key: specialbootdevice: Size = 122, Data: 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 04 1B 01 01 06 00 00 00 03 17 10 00 01 00 00 00 00 00 00 00 00 00 00 00 04 01 2A 00 02 00 00 00 28 40 06 00 00 00 00 00 D8 47 F8 0D 00 00 00 00 7A C5 2A 91 09 C6 EF 45 9C 1B 6B 0C D9 5F 53 EC 02 02 04 03 24 00 F7 FC 74 BE 7C 0B F3 49 91 47 01 F4 04 2E 68 42 2B 81 1A 37 47 EC 0A 46 AF BB 3A 58 96 17 1D D3 7F FF 04 00 
+4:229  0:000  found 2 handles with audio
+4:229  0:000  No AudioIoDevice stored
+4:229  0:000  no stored audio parameters
+4:229  0:000  === [ InitTheme ] =========================================
+4:229  0:000  use daylight theme
+4:231  0:001  Using theme 'minimal' (EFI\CLOVER\themes\minimal)
+4:231  0:000  OS main and drive as badge
+4:231  0:000  file sound read: sound.wav Not Found
+4:233  0:002  Loading font from ThemeDir: Success
+4:233  0:000  theme inited
+4:233  0:000  Chosen theme minimal
+4:233  0:000  after NVRAM boot-args=-cflbkltfix igfxcflbklt=1 applbkl=0
+4:233  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+4:233  0:000  found AppleSMC protocol
+4:234  0:000  Registered 14 SMC keys
+4:234  0:000  === [ ScanLoader ] ========================================
+4:234  0:000  - [01]: 'EFI'
+4:253  0:019          AddLoaderEntry for Volume Name=EFI
+4:253  0:000          skipped because entry is hidden
+4:253  0:000  - [05]: ''
+4:255  0:001          AddLoaderEntry for Volume Name=
+4:255  0:000          [!] Icon 19 (icons\vol_internal_ntfs.icns) not found (path: EFI\CLOVER\themes\minimal)
+4:276  0:020          AddLoaderEntry for Volume Name=
+4:276  0:000          skipped because entry is hidden
+4:276  0:000  - [07]: 'Preboot', hidden
+4:276  0:000  - [08]: 'macOS'
+4:280  0:004          AddLoaderEntry for Volume Name=macOS
+4:281  0:001      hibernated: set as never
+4:282  0:000          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\minimal)
+4:300  0:018  - [09]: 'Recovery', hidden
+4:300  0:000  - [10]: 'VM'
+4:317  0:017  === [ AddCustomTool ] =====================================
+4:317  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+4:317  0:000  Checking EFI partition Volume 1 for Clover
+4:317  0:000   Found Clover
+4:318  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+4:318  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:346  0:027  === [ GetEfiBootDeviceFromNvram ] =========================
+4:346  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,2B811A3747EC0A46AFBB3A5896171DD3)
+4:346  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,2B811A3747EC0A46AFBB3A5896171DD3)'
+4:346  0:000    - LoaderPath: '<null string>'
+4:346  0:000    - Guid = 912AC57A-C609-45EF-9C1B-6B0CD95F53EC
+4:346  0:000  === [ FindStartupDiskVolume ] =============================
+4:346  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1B,0x4)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,912AC57A-C609-45EF-9C1B-6B0CD95F53EC,0x64028,0xDF847D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,2B811A3747EC0A46AFBB3A5896171DD3)
+4:346  0:000     - searching for that partition
+4:346  0:000      - found entry 1. 'Boot macOS from macOS', Volume 'macOS'
+4:346  0:000  Boot redirected to Entry 1. 'Boot macOS from macOS'
+4:346  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+4:346  0:000  DefaultIndex=1 and MainMenu.EntryCount=8
+4:666  0:320  can't bear mouse at all! Status=Unsupported
+4:667  0:000  can't bear mouse at timeout! Status=Unsupported
+4:667  0:000  GUI ready
+5:668  1:000  can't bear mouse at timeout! Status=Unsupported
+5:878  0:210  can't bear mouse at timeout! Status=Unsupported
+5:880  0:001  can't bear mouse at sel! Status=Unsupported
+6:093  0:212  can't bear mouse at sel! Status=Unsupported
+10:301  4:207  Found UEFI Acpi 2.0 RSDP at 3A442000
+10:301  0:000  Saving ACPI tables from RSDP 3A442000 to EFI\CLOVER\ACPI\origin ...
+10:301  0:000   3A442000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:315  0:014    (Xsdt: 3A4420B8, Rsdt: 3A442028)
+10:315  0:000    3A4420B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236 -> XSDT.aml
+10:328  0:012    3A442028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136 -> RSDT.aml
+10:340  0:012    Tables in Xsdt: 25
+10:340  0:000    0. 3A483440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276 -> FACP.aml
+10:353  0:013        (Dsdt: 3A442230, Facs: 3A5B9080, XDsdt: 3A442230, XFacs: 0)
+10:353  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763 -> DSDT.aml
+10:368  0:015        3A5B9080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+10:381  0:012    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244 -> APIC.aml
+10:394  0:012    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68 -> FPDT.aml
+10:406  0:012    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156 -> FIDT.aml
+10:419  0:012    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60 -> MCFG.aml
+10:432  0:013    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820 -> SSDT-0-SataTabl.aml
+10:444  0:012    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+10:457  0:012        * 3A3F6298: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1470  53 53 44 54 BE 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1470 -> SSDT-x1_0-Cpu0Ist.aml
+10:469  0:012        * 3A3EE018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+10:482  0:012        * 3A3ED018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+10:500  0:018        * 3A3EFA98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+10:513  0:012        * 3A3F6918: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 9F 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x1_4-Cpu0Hwp.aml
+10:526  0:012        * 3A3ED698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+10:539  0:012        * 3A3EF018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+10:551  0:012  
+10:551  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85 -> MSDM.aml
+10:564  0:012    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374 -> SLIC.aml
+10:577  0:013    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743 -> SSDT-2-SaSsdt.aml
+10:591  0:013    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135 -> SSDT-3-PegSsdt.aml
+10:604  0:012    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56 -> HPET.aml
+10:617  0:012    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998 -> SSDT-4-Ther_Rvp.aml
+10:629  0:012    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572 -> SSDT-5-xh_cfhd4.aml
+10:642  0:012    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72 -> UEFI.aml
+10:656  0:013    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92 -> LPIT.aml
+10:669  0:012    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-6-PtidDevc.aml
+10:682  0:013    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226 -> SSDT-7-TbtTypeC.aml
+10:695  0:012    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52 -> DBGP.aml
+10:708  0:013    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84 -> DBG2.aml
+10:721  0:013    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-8-SgPeg.aml
+10:735  0:013    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+10:748  0:012    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56 -> BGRT.aml
+10:760  0:012    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801 -> SSDT-9-OptTabl.aml
+10:773  0:012    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40 -> WSMT.aml
+10:786  0:012    Tables in Rsdt: 25
+10:786  0:000    0. 3A4421A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132 -> RSDT-FACP.aml
+10:799  0:013        (Dsdt: 3A442230, Facs: 3A5B9040)
+10:799  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+10:805  0:005        3A5B9040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+10:818  0:013    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+10:818  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+10:818  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+10:818  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+10:818  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+10:818  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:818  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+10:818  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+10:818  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+10:818  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+10:818  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+10:818  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+10:818  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+10:818  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+10:818  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+10:818  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:818  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+10:818  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+10:818  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+10:818  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:818  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:818  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+10:818  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+10:818  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+10:818  0:000  Found UEFI Acpi 1.0 RSDP at 3A442000
+10:818  0:000  Printing ACPI tables from RSDP 3A442000 ...
+10:818  0:000   3A442000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:818  0:000    (Xsdt: 3A4420B8, Rsdt: 3A442028)
+10:818  0:000    3A4420B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236
+10:818  0:000    3A442028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136
+10:818  0:000    Tables in Xsdt: 25
+10:818  0:000    0. 3A483440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276
+10:818  0:000        (Dsdt: 3A442230, Facs: 3A5B9080, XDsdt: 3A442230, XFacs: 0)
+10:818  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+10:824  0:005        3A5B9080: 'FACS', Ver: 2, Len: 64
+10:824  0:000    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+10:824  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+10:824  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+10:824  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+10:824  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+10:824  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:824  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+10:824  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+10:824  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+10:824  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+10:824  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+10:824  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+10:824  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+10:824  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+10:824  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+10:824  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:824  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+10:824  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+10:824  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+10:824  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:824  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:824  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+10:824  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+10:824  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+10:824  0:000    Tables in Rsdt: 25
+10:824  0:000    0. 3A4421A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132
+10:824  0:000        (Dsdt: 3A442230, Facs: 3A5B9040)
+10:824  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+10:830  0:005        3A5B9040: 'FACS', Ver: 0, Len: 64
+10:830  0:000    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+10:830  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+10:830  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+10:830  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+10:830  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+10:830  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+10:830  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+10:830  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+10:830  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+10:830  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+10:830  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+10:830  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+10:830  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+10:830  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+10:830  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+10:830  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+10:830  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+10:830  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+10:830  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+10:830  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+10:830  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+10:830  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+10:830  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+10:830  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+16:839  6:009  Found UEFI Acpi 2.0 RSDP at 3A442000
+16:839  0:000  Saving ACPI tables from RSDP 3A442000 to EFI\CLOVER\ACPI\origin ...
+16:839  0:000   3A442000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+16:852  0:012    (Xsdt: 3A4420B8, Rsdt: 3A442028)
+16:852  0:000    3A4420B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236 -> XSDT.aml
+16:864  0:012    3A442028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136 -> RSDT.aml
+16:877  0:012    Tables in Xsdt: 25
+16:877  0:000    0. 3A483440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276 -> FACP.aml
+16:890  0:013        (Dsdt: 3A442230, Facs: 3A5B9080, XDsdt: 3A442230, XFacs: 0)
+16:890  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763 -> DSDT.aml
+16:909  0:018        3A5B9080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+16:921  0:012    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244 -> APIC.aml
+16:934  0:012    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68 -> FPDT.aml
+16:946  0:012    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156 -> FIDT.aml
+16:959  0:012    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60 -> MCFG.aml
+16:972  0:012    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820 -> SSDT-0-SataTabl.aml
+16:985  0:012    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+16:997  0:012        * 3A3F6298: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1470  53 53 44 54 BE 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1470 -> SSDT-x1_0-Cpu0Ist.aml
+17:009  0:012        * 3A3EE018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+17:022  0:012        * 3A3ED018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+17:035  0:012        * 3A3EFA98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+17:048  0:012        * 3A3F6918: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 9F 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x1_4-Cpu0Hwp.aml
+17:060  0:012        * 3A3ED698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+17:073  0:012        * 3A3EF018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+17:086  0:012  
+17:086  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85 -> MSDM.aml
+17:098  0:012    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374 -> SLIC.aml
+17:111  0:012    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743 -> SSDT-2-SaSsdt.aml
+17:124  0:012    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135 -> SSDT-3-PegSsdt.aml
+17:137  0:012    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56 -> HPET.aml
+17:149  0:012    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998 -> SSDT-4-Ther_Rvp.aml
+17:162  0:012    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572 -> SSDT-5-xh_cfhd4.aml
+17:175  0:012    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72 -> UEFI.aml
+17:187  0:012    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+17:187  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+17:187  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226 -> SSDT-6-TbtTypeC.aml
+17:201  0:013    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52 -> DBGP.aml
+17:213  0:012    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84 -> DBG2.aml
+17:226  0:012    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-7-SgPeg.aml
+17:238  0:012    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+17:251  0:012    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56 -> BGRT.aml
+17:264  0:012    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801 -> SSDT-8-OptTabl.aml
+17:277  0:013    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40 -> WSMT.aml
+17:289  0:012    Tables in Rsdt: 25
+17:289  0:000    0. 3A4421A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132 -> RSDT-FACP.aml
+17:302  0:012        (Dsdt: 3A442230, Facs: 3A5B9040)
+17:302  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+17:308  0:005        3A5B9040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+17:320  0:012    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+17:320  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+17:320  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+17:320  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+17:320  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+17:320  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+17:320  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+17:320  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+17:320  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+17:320  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+17:320  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+17:320  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+17:320  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+17:320  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+17:320  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+17:320  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+17:320  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+17:320  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+17:320  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+17:320  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:320  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:320  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+17:320  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+17:320  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+17:320  0:000  Found UEFI Acpi 1.0 RSDP at 3A442000
+17:320  0:000  Printing ACPI tables from RSDP 3A442000 ...
+17:320  0:000   3A442000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:320  0:000    (Xsdt: 3A4420B8, Rsdt: 3A442028)
+17:320  0:000    3A4420B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236
+17:320  0:000    3A442028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136
+17:320  0:000    Tables in Xsdt: 25
+17:320  0:000    0. 3A483440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276
+17:320  0:000        (Dsdt: 3A442230, Facs: 3A5B9080, XDsdt: 3A442230, XFacs: 0)
+17:320  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+17:326  0:005        3A5B9080: 'FACS', Ver: 2, Len: 64
+17:326  0:000    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+17:326  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+17:326  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+17:326  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+17:326  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+17:326  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+17:326  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+17:326  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+17:326  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+17:326  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+17:326  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+17:326  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+17:326  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+17:326  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+17:326  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+17:326  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+17:326  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+17:326  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+17:326  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+17:326  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:326  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:326  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+17:326  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+17:326  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+17:326  0:000    Tables in Rsdt: 25
+17:326  0:000    0. 3A4421A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132
+17:326  0:000        (Dsdt: 3A442230, Facs: 3A5B9040)
+17:326  0:000        3A442230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+17:332  0:005        3A5B9040: 'FACS', Ver: 0, Len: 64
+17:332  0:000    1. 3A483558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+17:332  0:000    2. 3A483650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+17:332  0:000    3. 3A483698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+17:332  0:000    4. 3A483738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+17:332  0:000    5. 3A483778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+17:332  0:000    6. 3A483AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+17:332  0:000    7. 3A485288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+17:332  0:000    8. 3A4852E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+17:332  0:000    9. 3A485458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+17:332  0:000    10. 3A488620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+17:332  0:000    11. 3A48A5E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+17:332  0:000    12. 3A48A620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+17:332  0:000    13. 3A48B5C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+17:332  0:000    14. 3A48DF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+17:332  0:000    15. 3A48DF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+17:332  0:000    16. 3A48DFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+17:332  0:000    17. 3A490798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+17:332  0:000    18. 3A491820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+17:332  0:000    19. 3A491858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+17:332  0:000    20. 3A4918B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:332  0:000    21. 3A491960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+17:332  0:000    22. 3A491A08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+17:332  0:000    23. 3A491A40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+17:332  0:000    24. 3A4938C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
