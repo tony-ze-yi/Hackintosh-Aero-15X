@@ -92,3 +92,4 @@ Then, inside each folder:
 **Notes**
 - If you happen to have a PM981 SSD (Samsung) due to an RMA, the Mojave install *will not work*! It will reboot randomly during install. Buy another SSD and put it into the second M.2 slot, then install Mojave onto there.
 - Sometimes when you update Mojave to 10.14.5 from a lower build it may cause problems with sound. That happened to me. Make a backup and install fresh with the Mojave 10.14.5 installer.
+- The PM981 causes problems (kernel panic / random restart) even if macOS is not installed on it. I added SSDT-NVMe-Pcc.aml to deal with that - it disables the Samsung SSD completely.
