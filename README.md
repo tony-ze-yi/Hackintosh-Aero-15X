@@ -81,6 +81,12 @@ Then, inside each folder:
    - https://github.com/zacmks/Hackintosh-Aero-15X/issues/4
 - Moved Mojave support to 10.14.5 folder
 
+## Catalina support
+- Updated from 10.14.6 to 10.15.0 via System Preferences
+- Required a clover update and various kext updates - most important of them was BrcmPatchRAM2 -> BrcmPatchRAM3 + BrcmBluetoothInjector (should have done that for 10.14.6). 
+- **Note that BrcmFirmwareData should NOT be in /L/E, remove it if it's there!**
+- Wifi, bt, sleep, sound, microphone, keyboard, trackpad all seem to be working like 10.14.6.
+
 ## How I installed it
 - Create a bootable USB via these instructions: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
 - Delete the clover file installed there and replace it with the one in this repo
