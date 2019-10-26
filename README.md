@@ -86,6 +86,7 @@ Then, inside each folder:
 - Required a clover update and various kext updates - most important of them was BrcmPatchRAM2 -> BrcmPatchRAM3 + BrcmBluetoothInjector (should have done that for 10.14.6). 
 - **Note that BrcmFirmwareData should NOT be in /L/E, remove it if it's there!**
 - Wifi, bt, sleep, sound, microphone, keyboard, trackpad all seem to be working like 10.14.6.
+- Sometimes on restart I can adjust sound but it doesn't create noise. To fix this I remove the nvram.plist file in the boot partition in Windows/Linux.
 
 ## How I installed it
 - Create a bootable USB via these instructions: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
